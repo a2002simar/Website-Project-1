@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  background: url(/Images/pexels-scott-webb-136394.jpg);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow: auto;
+  background-repeat: repeat-y;
+}
+
+#logo {
+  color: white;
+  display: inline-block;
+  font-size: 52px;
+  font-weight: bolder;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  cursor: pointer;
+}
+
+#y {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+#y:hover {
+  color: #ff0000;
+}
+
+#o:hover {
+  color: yellow;
+}
+
+#mid {
+  margin: auto;
+}
+
+#navbar {
+  background: rgba(0, 0, 0, 0);
+  height: 45px;
+  margin-left: 35%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+nav ul li a.active {
+  color: yellow;
+}
+
+#contact_us {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#contact_us button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  float: right;
+}
+
+#contact_us button:hover,
+#btn:hover {
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.container {
+  border: white 1px solid;
+  color: white;
+  width: 30%;
+  margin-left: 1000px;
+  margin-top: 130px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #ff000000;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+#btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.container form {
+  text-align: center;
+}
+
+.form-group input {
+  text-align: center;
+  border: 1px solid white;
+  display: block;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  width: fit-content;
+  height: 4%;
+  padding: 10px;
+  margin: 3px auto;
+}
+
+#first {
+  margin-top: 10px;
+}
+
+.form-group input:hover {
+  color: yellow;
+  border: 2px solid yellow;
+}
