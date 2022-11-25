@@ -41,8 +41,7 @@
 #navbar {
   background: rgba(0, 0, 0, 0);
   height: 45px;
-  margin-left: 35%;
-  margin-right: 5%;
+  margin-left: 300px;
   margin-top: 20px;
 }
 
@@ -95,8 +94,8 @@ nav ul li a.active {
 .container {
   border: white 1px solid;
   color: white;
-  width: 30%;
-  margin-left: 1000px;
+  width: 300px;
+  margin-left: 650px;
   margin-top: 130px;
   padding: 50px;
   border-radius: 10px;
